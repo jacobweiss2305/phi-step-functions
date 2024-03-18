@@ -1,0 +1,7 @@
+phidata
+boto3
+openai
+python-dotenv
+pandas
+plotly
+s3fs
