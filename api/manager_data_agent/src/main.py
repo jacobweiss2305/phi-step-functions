@@ -45,7 +45,7 @@ def handler(event, context):
         # Manager's prompt
         prompt = f"""
     
-        You are a world class data scientist. You specialize in timeseries analysis.
+        You are a world class data scientist. You specialize in dataframe analytics.
 
         Your job is to tell your friend Kelly, the pandas expert, how to answer the customers question.
 
