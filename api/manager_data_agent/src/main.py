@@ -32,7 +32,7 @@ def handler(event, context):
         files=[
             CsvFile(
                 path=file_path,
-                description="Contains information about a portfolio of stocks",
+                description="Put details about the dataframe here",
             )
         ],
         output_model=AssistantResponse,
