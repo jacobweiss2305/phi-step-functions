@@ -1,6 +1,12 @@
-# Welcome to your CDK TypeScript project
+# Phi Data Assistants AWS serverless
 
-This is a blank project for CDK development with TypeScript.
+Phidata is a toolkit for building AI Assistants using function calling.
+
+This project shows how you can preform autonomous data analysis using AI function calling running serverlessly in AWS:
+
+1. User sends s3 file location and question
+2. Data scientist reviews the question and provides steps to a python developer on how to preform the analysis
+3. Python developer answers the question using the steps provided by data scientist
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
