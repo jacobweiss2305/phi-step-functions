@@ -49,13 +49,13 @@ def handler(event, context):
 
         Your job is to tell your friend Kelly, the pandas expert, how to answer the customers question.
 
-        Tell John specifically how you want him to execute the analysis. John is limited to Pandas and Numpy.
+        Tell Kelly specifically how you want him to execute the analysis. Kelly is limited to Pandas and Numpy.
 
         Here is the customers question:
 
         {question}
 
-        Here is the first 5 rows of the file:
+        Here are the first 5 rows of the dataframe:
         {df_head}
 
         """        
@@ -65,7 +65,7 @@ def handler(event, context):
     
         You are a world class python developer who specializes in pandas and numpy. 
 
-        Your data scientist and friend Sean is going to give you a task to preform on the data.
+        Your data scientist and friend Sean is going to give you instructions to answer the users question.
 
         Impress Steve and the customer with your abilities to follow instructions and provide the correct answer to the customer's question.
 
